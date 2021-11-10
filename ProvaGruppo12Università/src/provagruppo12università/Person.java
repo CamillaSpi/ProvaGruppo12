@@ -60,7 +60,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Il nome del soggetto e'" + " name=  " + name + ", surname = " + surname + ", eta = " + eta + " sesso = Decisamente pcoo ";
+        return "Il nome del soggetto e'" + " name=  " + name + ", surname = " + surname + ", eta = " + eta + " sesso = Decisamente pcoo " + "sessoBrutale = NandoSica";
     }
     
     
