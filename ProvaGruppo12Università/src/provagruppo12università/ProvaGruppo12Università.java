@@ -17,6 +17,11 @@ public class ProvaGruppo12Università {
         System.out.println("Ciao ragazzi la somma risultate sarà " + tmp);
         return a+b;
     }
+    public static int SottrazioneaDiDueValori(int a, int b){
+        int tmp = a-b;
+        System.out.println("Ciao ragazzi la somma risultate sarà " + tmp);
+        return a-b;
+    }
     
     
     
@@ -29,6 +34,7 @@ public class ProvaGruppo12Università {
         System.out.println("Ciao ragazzi");
         System.out.println("Ciao ragazzi sto testando");
         SommaDiDueValori(5,3);
+        SottrazioneaDiDueValori(5,3);
     }
 
 }
