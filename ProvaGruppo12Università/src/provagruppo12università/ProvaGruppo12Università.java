@@ -24,7 +24,11 @@ public class ProvaGruppo12Università {
     }
     
     
-    
+    public static String FunzionediVito(String x){
+        String result;
+        result=("A " + x + " piacciono i piedi");
+        return result;
+    }
     
 
     /**
@@ -33,6 +37,8 @@ public class ProvaGruppo12Università {
     public static void main(String[] args) {
         System.out.println("Ciao ragazzi");
         System.out.println("Ciao ragazzi sto testando");
+        String x = "Nando";
+        System.out.println(FunzionediVito(x));
         SommaDiDueValori(5,3);
         SottrazioneaDiDueValori(5,3);
     }
