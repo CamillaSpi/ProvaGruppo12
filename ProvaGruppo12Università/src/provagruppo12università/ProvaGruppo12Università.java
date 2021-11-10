@@ -45,7 +45,7 @@ public class ProvaGruppo12Università {
     public static void main(String[] args) {
         System.out.println("Ciao ragazzi");
         System.out.println("Ciao ragazzi sto testando");
-        String x = "Nando";
+        String x = "Mammacita";
         System.out.println(FunzionediVito(x));
         SommaDiDueValori(5,3);
         int[] v={1,2,3,4};
