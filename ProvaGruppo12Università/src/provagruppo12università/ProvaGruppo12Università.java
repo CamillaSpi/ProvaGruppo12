@@ -16,6 +16,7 @@ public class ProvaGruppo12Università {
      */
     public static void main(String[] args) {
         System.out.println("Ciao ragazzi");
+        System.out.println("Ciao ragazzi da parte di nando ");
     }
     
 }
