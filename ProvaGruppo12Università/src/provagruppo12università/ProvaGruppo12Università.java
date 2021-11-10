@@ -38,7 +38,9 @@ public class ProvaGruppo12Università {
         return result;
     }
     
-
+    public String sommiamoTUTTO(String c, String x){
+        return c + x;
+    }
     /**
      * @param args the command line arguments
      */
@@ -56,7 +58,6 @@ public class ProvaGruppo12Università {
         
         Person nando = new Person("nando" , "sica" , 22 , 0);
         System.out.println(nando);
-    
     
     
     }
