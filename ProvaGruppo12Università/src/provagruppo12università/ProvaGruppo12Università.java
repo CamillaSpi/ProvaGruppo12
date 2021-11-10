@@ -19,6 +19,7 @@ public class ProvaGruppo12Università {
         System.out.println("Ciao ragazzi da parte di nando ");
         System.out.println("Ciao ragazzi da parte di Giovanni Spazzione che fa gli esercizi ");
         System.out.println("Ciao ragazzi da parte di Mattia Marseglia che fa gli esercizi ");
+        System.out.println("Ciao ragazzi da parteee del grandissimo di Orlandino che fa gli esercizi ");
     }
 
 }
