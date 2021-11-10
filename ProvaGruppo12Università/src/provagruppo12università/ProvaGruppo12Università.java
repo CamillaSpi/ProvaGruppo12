@@ -52,6 +52,13 @@ public class ProvaGruppo12Università {
         SommaDiPiuValori(v);
         SottrazioneaDiDueValori(5,3);
         System.out.println("cazzoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo, se non ti stai fermo ti stacco la testa mangiandomela a morsi");
+        
+        
+        Person nando = new Person("nando" , "sica" , 22 , 0);
+        System.out.println(nando);
+    
+    
+    
     }
 
 }
