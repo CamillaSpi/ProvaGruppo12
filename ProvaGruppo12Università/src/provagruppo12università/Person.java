@@ -16,12 +16,14 @@ public class Person {
     private String surname;
     private int eta;
     private int sesso;
+    private int sessoBrutale;
 
     public Person(String name, String surname, int eta , int sesso) {
         this.name = name;
         this.surname = surname;
         this.sesso = sesso;
         this.eta = eta;
+        this.sessoBrutale=0;
     }
 
     public String getName() {
