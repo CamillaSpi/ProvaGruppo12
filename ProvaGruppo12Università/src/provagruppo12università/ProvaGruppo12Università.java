@@ -41,6 +41,7 @@ public class ProvaGruppo12Università {
         System.out.println(FunzionediVito(x));
         SommaDiDueValori(5,3);
         SottrazioneaDiDueValori(5,3);
+        System.out.println("cazzoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo");
     }
 
 }
