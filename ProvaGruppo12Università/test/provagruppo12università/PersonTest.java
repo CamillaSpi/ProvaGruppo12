@@ -32,7 +32,7 @@ public class PersonTest {
 
     @After
     public void tearDown() {
-        //removing references, then carbage collector do the work (maybe ;) )
+        //removing references, then garbage collector do the work (maybe ;) )
         anando = null;
     }
 
