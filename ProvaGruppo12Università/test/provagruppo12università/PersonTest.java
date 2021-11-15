@@ -24,13 +24,6 @@ public class PersonTest {
     public PersonTest() {
     }
 
-    @BeforeClass
-    public static void setUpClass() {
-    }
-
-    @AfterClass
-    public static void tearDownClass() {
-    }
 
     @Before
     public void setUp() {
@@ -39,6 +32,8 @@ public class PersonTest {
 
     @After
     public void tearDown() {
+        //removing references, then carbage collector do the work (maybe ;) )
+        anando = null;
     }
 
     /**
