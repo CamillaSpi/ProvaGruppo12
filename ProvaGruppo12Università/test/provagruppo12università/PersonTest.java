@@ -11,7 +11,6 @@ import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.junit.BeforeClass;
-import org.junit.jupiter.api.DisplayName;
 
 /**
  *
@@ -48,7 +47,6 @@ public class PersonTest {
      * Test of getName method, of class Person.
      */
     @Test
-    @DisplayName("simple getName test")
     public void testGetName() {
         System.out.println("getName");
         String expResult = "anando";
