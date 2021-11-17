@@ -61,6 +61,10 @@ public class Person {
         return "Il nome del soggetto e'" + " name=  " + name + ", surname = " + surname + ", eta = " + eta + " sesso = Decisamente pcoo ";
     }
     
+    protected boolean isStrunz(){
+        return true;
+    }
+    
     
             
     

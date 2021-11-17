@@ -6,9 +6,11 @@
 package provagruppo12università;
 
 import org.junit.After;
+import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.junit.BeforeClass;
 import org.junit.jupiter.api.DisplayName;
 
 /**
@@ -20,6 +22,14 @@ public class PersonTest {
     Person anando;
 
     public PersonTest() {
+    }
+
+    @BeforeClass
+    public static void setUpClass() throws Exception {
+    }
+
+    @AfterClass
+    public static void tearDownClass() throws Exception {
     }
 
 
@@ -136,6 +146,16 @@ public class PersonTest {
         String expResult = "Il nome del soggetto e' name=  anando, surname = sica, eta = 22 sesso = Decisamente pcoo ";
         String result = anando.toString();
         assertEquals(expResult, result);
+    }
+
+    /**
+     * Test of isStrunz method, of class Person.
+     */
+    @Test
+    public void testIsStrunz() {
+        System.out.println("isStrunz");
+        boolean result = anando.isStrunz();
+        assertEquals(true, result);
     }
 
 }
