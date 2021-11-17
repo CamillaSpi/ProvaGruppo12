@@ -30,7 +30,9 @@ public class ProvaGruppo12Università {
         System.out.println("Ciao Ragazzi la somma del vettore sarà: " +sum);
         return sum;
     }
-    
+    public static int Modulo2(int x){
+        return x%2;
+    }
     
     public static String FunzionediVito(String x){
         String result;
